@@ -51,13 +51,9 @@ platform :ios do
           
     gym
           
-    firebase_app_distribution(
-      testers: "o.frankiv@ukma.edu.ua",
-      release_notes: "Release notes for version 1.2"
-    )
           
           # Output success message
-    puts "Automatic build and distribution completed successfully!"
+    puts "Automatic build completed successfully!"
         
   end 
       
