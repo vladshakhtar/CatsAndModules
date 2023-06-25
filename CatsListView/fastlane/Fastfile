@@ -51,7 +51,6 @@ platform :ios do
           
     gym
 
-    puts "Firebase_app_distribution is about to run" 
 
     firebase_app_distribution(
       app: "1:319609070106:ios:31b2b41977af540df9a7a3",
