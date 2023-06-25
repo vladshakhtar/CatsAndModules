@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CatsListView.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>5F77C39E791782F8FA438D917199F39E327E9AB3</string>
+				<key>dateExpires</key>
+				<string>29.05.2024</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>5F77C39E791782F8FA438D917199F39E327E9AB3</string>
+						<key>dateExpires</key>
+						<string>29.05.2024</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>Networking.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>VNU8KKW4GG</string>
+						<key>name</key>
+						<string></string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>VNU8KKW4GG.ua.edu.ukma.stoliarov.CatsListView</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>VNU8KKW4GG</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>CatsListView.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>322a72f5-624c-441d-ae57-cbc62898efa2</string>
+				<key>dateExpires</key>
+				<string>29.05.2024</string>
+				<key>name</key>
+				<string>Vladyslav Stoliarov</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>VNU8KKW4GG</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

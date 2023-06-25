@@ -1,0 +1,153 @@
+2023-06-13 19:05:44 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x11f77f8a0; archive(resolved)="<IDEArchive: 0x600003ac1200>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team(resolved)="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x11f77f8a0; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x11f7a64a0; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x11f7ab020; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x11f788650; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x11f7879e0; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x11f787300; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x13882b4b0; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x13882e440; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x138827db0; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="<IDEProvisioningBasicTeam: 0x600001f13760; teamID='VNU8KKW4GG', teamName='(null)'>">
+	<IDEDistributionContext: 0x138827690; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="(null)">
+	<IDEDistributionContext: 0x11f605b30; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="(null)">
+	<IDEDistributionContext: 0x1388181a0; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001c5f950>", team="(null)">
+	<IDEDistributionContext: 0x11f7801e0; archive = "<IDEArchive: 0x600003ac1200>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x11f77f8a0>
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2023-06-13 19:05:44 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app'
+2023-06-13 19:05:44 +0000  >>> Copying /Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app 
+2023-06-13 19:05:44 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-06-13 19:05:44 +0000  3191 bytes for ./_CodeSignature/CodeResources
+2023-06-13 19:05:44 +0000  copying file ./GoogleService-Info.plist ... 
+2023-06-13 19:05:44 +0000  699 bytes for ./GoogleService-Info.plist
+2023-06-13 19:05:44 +0000  copying file ./CatsListView ... 
+2023-06-13 19:05:44 +0000  1648032 bytes for ./CatsListView
+2023-06-13 19:05:44 +0000  copying file ./Frameworks/Networking.framework/_CodeSignature/CodeResources ... 
+2023-06-13 19:05:44 +0000  1798 bytes for ./Frameworks/Networking.framework/_CodeSignature/CodeResources
+2023-06-13 19:05:44 +0000  copying file ./Frameworks/Networking.framework/Networking ... 
+2023-06-13 19:05:44 +0000  92864 bytes for ./Frameworks/Networking.framework/Networking
+2023-06-13 19:05:44 +0000  copying file ./Frameworks/Networking.framework/Info.plist ... 
+2023-06-13 19:05:44 +0000  767 bytes for ./Frameworks/Networking.framework/Info.plist
+2023-06-13 19:05:44 +0000  copying file ./embedded.mobileprovision ... 
+2023-06-13 19:05:44 +0000  12388 bytes for ./embedded.mobileprovision
+2023-06-13 19:05:44 +0000  copying file ./Info.plist ... 
+2023-06-13 19:05:44 +0000  1301 bytes for ./Info.plist
+2023-06-13 19:05:44 +0000  copying file ./PkgInfo ... 
+2023-06-13 19:05:44 +0000  8 bytes for ./PkgInfo
+2023-06-13 19:05:44 +0000 [MT] /usr/bin/ditto exited with 0
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2023-06-13 19:05:44 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x600003ac5560; bundleID='ua.edu.ukma.stoliarov.Networking', path='<DVTFilePath:0x60000355e300:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000029648f0; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.Networking', executablePath='<DVTFilePath:0x60000355eb50:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2023-06-13 19:05:44 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app/Frameworks/Networking.framework/Networking' '-verify_arch' 'arm64e'
+2023-06-13 19:05:44 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-06-13 19:05:44 +0000 [MT] Skipping architecture thinning for item "Networking" because arch "arm64e" wasn't found
+2023-06-13 19:05:44 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app/CatsListView' '-verify_arch' 'arm64e'
+2023-06-13 19:05:44 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-06-13 19:05:44 +0000 [MT] Skipping architecture thinning for item "CatsListView" because arch "arm64e" wasn't found
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionODRStep
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2023-06-13 19:05:44 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600003ac5560; bundleID='ua.edu.ukma.stoliarov.Networking', path='<DVTFilePath:0x60000355e300:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000296d4a0; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.Networking', executablePath='<DVTFilePath:0x60000355eb50:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>
+2023-06-13 19:05:44 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app'
+2023-06-13 19:05:44 +0000 [MT] /usr/bin/xattr exited with 0
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2023-06-13 19:05:44 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003ac5560; bundleID='ua.edu.ukma.stoliarov.Networking', path='<DVTFilePath:0x60000355e300:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000296d4a0; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.Networking', executablePath='<DVTFilePath:0x60000355eb50:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'>: {
+}
+2023-06-13 19:05:44 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003ac5560; bundleID='ua.edu.ukma.stoliarov.Networking', path='<DVTFilePath:0x60000355e300:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000296d760; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.Networking', executablePath='<DVTFilePath:0x60000355eb50:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'> are: {
+}
+2023-06-13 19:05:44 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003ac5560; bundleID='ua.edu.ukma.stoliarov.Networking', path='<DVTFilePath:0x60000355e300:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000296d8c0; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='(null)', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.Networking', executablePath='<DVTFilePath:0x60000355eb50:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/Frameworks/Networking.framework/Networking'>', hardenedRuntime='0'>'> to: /var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/entitlements~~~GEvlrs
+2023-06-13 19:05:44 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '5F77C39E791782F8FA438D917199F39E327E9AB3' '--entitlements' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/entitlements~~~GEvlrs' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app/Frameworks/Networking.framework'
+2023-06-13 19:05:44 +0000  /var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app/Frameworks/Networking.framework: replacing existing signature
+2023-06-13 19:05:44 +0000  /var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app/Frameworks/Networking.framework: signed bundle with Mach-O thin (arm64) [ua.edu.ukma.stoliarov.Networking]
+2023-06-13 19:05:44 +0000 [MT] /usr/bin/codesign exited with 0
+2023-06-13 19:05:44 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003ac28e0; bundleID='ua.edu.ukma.stoliarov.CatsListView', path='<DVTFilePath:0x6000035f6760:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000029649a0; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='{
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.stoliarov.CatsListView";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.CatsListView', executablePath='<DVTFilePath:0x60000355f090:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/CatsListView'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.stoliarov.CatsListView";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}
+2023-06-13 19:05:44 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003ac28e0; bundleID='ua.edu.ukma.stoliarov.CatsListView', path='<DVTFilePath:0x6000035f6760:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002960210; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='{
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.stoliarov.CatsListView";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.CatsListView', executablePath='<DVTFilePath:0x60000355f090:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/CatsListView'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.stoliarov.CatsListView";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}
+2023-06-13 19:05:44 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003ac28e0; bundleID='ua.edu.ukma.stoliarov.CatsListView', path='<DVTFilePath:0x6000035f6760:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003d03ac0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002960630; name='iPhone Developer: Vladyslav Stoliarov (N4PUX8MK5B)', hash='5F77C39E791782F8FA438D917199F39E327E9AB3', serialNumber='19A08C6869DEE64243DDEF01C5F9D3C9', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-05-30 15:28:33 +0000''>', entitlements='{
+    "application-identifier" = "VNU8KKW4GG.ua.edu.ukma.stoliarov.CatsListView";
+    "com.apple.developer.team-identifier" = VNU8KKW4GG;
+    "get-task-allow" = 1;
+}', teamID='VNU8KKW4GG', identifier='ua.edu.ukma.stoliarov.CatsListView', executablePath='<DVTFilePath:0x60000355f090:'/Users/vladshakhtar/Desktop/xcodebuild_VladyslavStoliarov/ARCHIVES/v1.0.1.xcarchive/Products/Applications/CatsListView.app/CatsListView'>', hardenedRuntime='0'>'> to: /var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/entitlements~~~mhl8TF
+2023-06-13 19:05:44 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '5F77C39E791782F8FA438D917199F39E327E9AB3' '--entitlements' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/entitlements~~~mhl8TF' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app'
+2023-06-13 19:05:44 +0000  /var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app: replacing existing signature
+2023-06-13 19:05:44 +0000  /var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app: signed app bundle with Mach-O thin (arm64) [ua.edu.ukma.stoliarov.CatsListView]
+2023-06-13 19:05:44 +0000 [MT] /usr/bin/codesign exited with 0
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2023-06-13 19:05:44 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root' '/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Packages/CatsListView.ipa'
+2023-06-13 19:05:44 +0000  >>> Copying /var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root 
+2023-06-13 19:05:44 +0000  copying file ./Payload/CatsListView.app/_CodeSignature/CodeResources ... 
+2023-06-13 19:05:44 +0000  3191 bytes for ./Payload/CatsListView.app/_CodeSignature/CodeResources
+2023-06-13 19:05:44 +0000  copying file ./Payload/CatsListView.app/GoogleService-Info.plist ... 
+2023-06-13 19:05:44 +0000  699 bytes for ./Payload/CatsListView.app/GoogleService-Info.plist
+copying file ./Payload/CatsListView.app/CatsListView ... 
+2023-06-13 19:05:44 +0000  1648032 bytes for ./Payload/CatsListView.app/CatsListView
+2023-06-13 19:05:44 +0000  copying file ./Payload/CatsListView.app/Frameworks/Networking.framework/_CodeSignature/CodeResources ... 
+2023-06-13 19:05:44 +0000  1798 bytes for ./Payload/CatsListView.app/Frameworks/Networking.framework/_CodeSignature/CodeResources
+copying file ./Payload/CatsListView.app/Frameworks/Networking.framework/Networking ... 
+2023-06-13 19:05:44 +0000  93120 bytes for ./Payload/CatsListView.app/Frameworks/Networking.framework/Networking
+copying file ./Payload/CatsListView.app/Frameworks/Networking.framework/Info.plist ... 
+2023-06-13 19:05:44 +0000  767 bytes for ./Payload/CatsListView.app/Frameworks/Networking.framework/Info.plist
+copying file ./Payload/CatsListView.app/embedded.mobileprovision ... 
+2023-06-13 19:05:44 +0000  12388 bytes for ./Payload/CatsListView.app/embedded.mobileprovision
+copying file ./Payload/CatsListView.app/Info.plist ... 
+2023-06-13 19:05:44 +0000  1301 bytes for ./Payload/CatsListView.app/Info.plist
+2023-06-13 19:05:44 +0000  copying file ./Payload/CatsListView.app/PkgInfo ... 
+8 bytes for ./Payload/CatsListView.app/PkgInfo
+2023-06-13 19:05:44 +0000 [MT] /usr/bin/ditto exited with 0
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2023-06-13 19:05:44 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-06-13 19:05:44 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000035e4f50:'/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app/Frameworks/Networking.framework'>
+2023-06-13 19:05:44 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000035e4a80:'/var/folders/kj/096gl6wx5ks7yg443mnswflw0000gn/T/XcodeDistPipeline.~~~251KY0/Root/Payload/CatsListView.app'>
+2023-06-13 19:05:44 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
