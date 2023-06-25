@@ -50,6 +50,15 @@ platform :ios do
     )
           
     gym
+
+
+    firebase_app_distribution(
+      app: "1:319609070106:ios:31b2b41977af540df9a7a3",
+      testers: "o.frankiv@ukma.edu.ua",
+      release_notes: "Release notes for new version of 1.2!",
+      # firebase_cli_token
+      firebase_cli_token: ENV['1//0chaZbgSR6LQqCgYIARAAGAwSNwF-L9Ir88TXh0pfTMuACUC0bXvlQXhqb1fTpaIsucQ90oXjapvyETuavn2Sud11p_ZpwFewVNs'],
+    )
           
           
           # Output success message
