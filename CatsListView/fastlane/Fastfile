@@ -39,5 +39,26 @@ platform :ios do
   lane :take_screenshots do
     snapshot
   end
-  
+
+  lane :bitrise do
+     # Check if the branch is a release branch
+        
+          # Run necessary build and distribution steps
+    increment_build_number(
+      xcodeproj: "CatsListView.xcodeproj",
+      build_number: "1.2"
+    )
+          
+    gym
+          
+    firebase_app_distribution(
+      testers: "o.frankiv@ukma.edu.ua",
+      release_notes: "Release notes for version 1.2"
+    )
+          
+          # Output success message
+    puts "Automatic build and distribution completed successfully!"
+        
+  end 
+      
 end
